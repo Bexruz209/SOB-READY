@@ -225,6 +225,12 @@ input {
         width: 100px;
         height: 40px;
     }
+
+    .carousel-inner{
+        display: flex;
+        padding-left: 190px;
+        padding-top: 60px;
+    }
 }
 
     

@@ -179,6 +179,14 @@ input {
     height: 100%;
 }
 
+.meta__img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    gap: 15px;
+}
+
 @media(max-width: 576px){
     .immer{
         display: flex;

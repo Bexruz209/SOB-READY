@@ -228,7 +228,7 @@ input {
 
     .carousel-inner{
         display: flex;
-        padding-left: 190px;
+        align-items: center;
         padding-top: 60px;
     }
 }

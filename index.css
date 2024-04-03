@@ -17,6 +17,7 @@ body {
 .conteyner {
     width: 1120px;
     margin: auto;
+    position: relative;
 }
 
 .emmer {
@@ -167,7 +168,7 @@ input {
 
 .tech__right{
     padding-top: 100px;
-    width: 670px;
+    width: 480px;
     height: 500px;
     left: 653px;
     position: absolute;
@@ -179,7 +180,43 @@ input {
 }
 
 @media(max-width: 576px){
-    .emmer__logo{
+    .immer{
+        display: flex;
+    }
+    .immer__let{
+        text-align: start;
+    }
+    .immer__medium{
+        text-align: end;
+    }
+
+    .girl_box{
         text-align: center;
     }
+
+    .sm-girl-img{
+        width: 350px;
+        height: 360px;
+    }
+
+    .col-12{
+        text-align: center;
+    }
+
+    .text_header{
+        padding-bottom: 20px;
+    }
+
+    .header_btn{
+        width: 100px;
+        height: 40px;
+        
+    }
+
+    .header__btn{
+        width: 100px;
+        height: 40px;
+    }
 }
+
+    

@@ -26,7 +26,7 @@ body {
     margin-top: 20px;
 }
 
-.emmer__left{
+.emmer__left {
     cursor: pointer;
 }
 
@@ -107,33 +107,33 @@ input {
     cursor: pointer;
 }
 
-.tech{
+.tech {
     display: flex;
     gap: 10px;
     align-items: center;
     margin-top: 90px;
 }
 
-.h1{
+.h1 {
     font-weight: 600;
     font-size: 52px;
     line-height: 80px;
     color: #333333;
 }
 
-.tech__p{
+.tech__p {
     font-weight: 400;
     font-size: 14px;
     color: #666666;
 }
 
-.tech__button{
+.tech__button {
     padding-top: 15px;
     display: flex;
     gap: 20px;
 }
 
-.tech_left{
+.tech_left {
     width: 120px;
     height: 40px;
     background: #E21A43;
@@ -143,14 +143,14 @@ input {
     transition: .5s;
 }
 
-.tech_left:hover{
+.tech_left:hover {
     transition: .5s;
     color: #E21A43;
     background: #fff;
     border: 1px solid #E21A43;
 }
 
-.tech_right{
+.tech_right {
     width: 120px;
     height: 40px;
     background: #fff;
@@ -160,13 +160,13 @@ input {
     transition: .5s;
 }
 
-.tech_right:hover{
+.tech_right:hover {
     transition: .5s;
     background: #E21A43;
     color: #fff;
 }
 
-.tech__right{
+.tech__right {
     padding-top: 100px;
     width: 480px;
     height: 500px;
@@ -174,12 +174,12 @@ input {
     position: absolute;
 }
 
-.tech__img{
+.tech__img {
     width: 100%;
     height: 100%;
 }
 
-.meta__img{
+.meta__img {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -188,79 +188,163 @@ input {
     position: relative;
 }
 
-.product{
+.product {
     position: absolute;
     top: 40px;
-    
     background: #F7F7F7;
+    display: flex;
+    gap: 20px;
 }
 
-.product__left{
+.product__left {
     width: 290px;
     background: #fff;
     margin-top: 100px;
-    margin-left: 100px;
+    margin-left: 90px;
     text-align: center;
 }
 
-h1{
+h1 {
     font-size: 32px;
     padding-bottom: 10px;
 }
 
-.product_botton{
+.product_botton {
     width: 130px;
     height: 40px;
     border: none;
     font-weight: 600;
     background: #f3e3e8;
     color: #E21A43;
+    margin-bottom: 20px;
 }
 
-@media(max-width: 576px){
-    .immer{
+.centor {
+    display: flex;
+    justify-content: center;
+    transform: translateY(150%);
+}
+
+.end{
+    transform: translateX(75%);
+    padding-top: 100px;
+}
+
+.product_left {
+    padding-left: 12px;
+    margin-top: 20px;
+    width: 200px;
+    background: #fff;
+    margin-bottom: 60px;
+    position: relative;
+}
+
+.product__botton{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.left__img{
+    padding-top: 10px;
+}
+
+.img__left{
+    width: 178px;
+}
+
+
+.left__logo {
+    position: absolute;
+    transform: translateX(13%);
+    top: 179px;
+    left: 8px;
+}
+
+.logo{
+    width: 150px;
+}
+
+.left__p{
+    padding-top: 40px;
+    font-size: 18px;
+    line-height: 18px;
+    color: #666666;
+}
+
+.left__h1{
+    font-weight: 600;
+    
+}
+
+.product_medium{
+    padding-left: 12px;
+    margin-top: 20px;
+    width: 200px;
+    margin-bottom: 60px;
+    background: #fff;
+}
+
+.left_p{
+    padding-top: 20px;
+    font-size: 18px;
+    line-height: 18px;
+    color: #666666;
+}
+
+.product_right{
+    padding-left: 12px;
+    margin-top: 20px;
+    width: 200px;
+    margin-bottom: 60px;
+    margin-right: 90px;
+    background: #fff;
+}
+
+@media(max-width: 576px) {
+    .immer {
         display: flex;
     }
-    .immer__let{
+
+    .immer__let {
         text-align: start;
     }
-    .immer__medium{
+
+    .immer__medium {
         text-align: end;
     }
 
-    .girl_box{
+    .girl_box {
         text-align: center;
     }
 
-    .sm-girl-img{
+    .sm-girl-img {
         width: 350px;
         height: 360px;
     }
 
-    .col-12{
+    .col-12 {
         text-align: center;
     }
 
-    .text_header{
+    .text_header {
         padding-bottom: 20px;
     }
 
-    .header_btn{
+    .header_btn {
         width: 100px;
         height: 40px;
-        
+
     }
 
-    .header__btn{
+    .header__btn {
         width: 100px;
         height: 40px;
     }
 
-    .carousel-inner{
+    .carousel-inner {
         display: flex;
         align-items: center;
         padding-top: 60px;
     }
 }
-
-    

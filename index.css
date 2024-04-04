@@ -483,7 +483,13 @@ h1 {
     }
 
     .sob__tex{
-        
+
+    }
+
+    .son__smoll{
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     .product_left{

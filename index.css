@@ -403,16 +403,8 @@ h1 {
     }
 
     .list1{
-        position: relative;
-        width: 400px;
-        height: 400px;
-        transform: translateX(0%);
-    }
-
-    .list__img2{
-        position: absolute;
-        transform: translateX(-40%);
-        width: 100px;
-        height: 120px;
+        width: 350px;
+        height: 360px;
+        left: 0;
     }
 }

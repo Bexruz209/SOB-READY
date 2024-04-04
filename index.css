@@ -367,7 +367,7 @@ h1 {
     }
 
     .sm-girl-img {
-        width: 350px;
+        width: 280px;
         height: 360px;
     }
 
@@ -400,6 +400,7 @@ h1 {
         display: flex;
         justify-content: start;
         align-items: center;
+        text-align: center;
         padding-left: 0px;
     }
 
@@ -409,7 +410,8 @@ h1 {
     }
 
     .list__img2{
-        
+        left: 220px;
+        top: 20px;
         width: 100px;
         height: 120px;
     }

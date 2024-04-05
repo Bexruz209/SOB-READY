@@ -555,6 +555,10 @@ h1 {
         text-align: center;
     }
 
+    .fresh__img{
+        width: 380px;
+    }
+
     .fresh__smoll {
         display: flex;
         justify-content: center;

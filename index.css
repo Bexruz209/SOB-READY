@@ -349,16 +349,18 @@ h1 {
     padding-bottom: 40px;
 }
 
-.sob{
+.sob {
     margin-top: 100px;
     background: #F7F7F7;
+    padding-bottom: 50px;
+    margin-bottom: 100px;
 }
 
-.sob__top{
+.sob__top {
     text-align: center;
 }
 
-.sob__botton{
+.sob__botton {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -366,20 +368,20 @@ h1 {
     margin-top: 50px;
 }
 
-.sob__menu{
+.sob__menu {
     display: flex;
     justify-content: center;
     margin-bottom: 50px;
     gap: 20px;
 }
 
-.sob__tex{
+.sob__tex {
     font-weight: 600;
     font-size: 24px;
     margin-bottom: 20px;
 }
 
-.tex{
+.tex {
     font-weight: 600;
     font-size: 16px;
     line-height: 16px;
@@ -388,25 +390,76 @@ h1 {
     transition: .5s;
 }
 
-.tex:hover{
+.tex:hover {
     transition: .5s;
     color: #E21A43;
 }
 
-.sob__img{
+.sob__img {
     padding-top: 10px;
     width: 178px;
 }
 
-.product_h1{
+.product_h1 {
     padding-top: 20px;
     font-size: 11px;
     color: #666666;
 }
 
-.left_pa{
+.left_pa {
     font-weight: 600;
     padding-bottom: 20px;
+}
+
+.sob_boton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.fresh {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 100px;
+}
+
+.fresh__img {
+    width: 480px;
+    height: 390px;
+}
+
+.fresh_h1 {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 50px;
+    color: #333333;
+}
+
+.fresh_p {
+    font-weight: 400;
+    font-size: 14px;
+    color: #666666;
+}
+
+.fresh_sleft {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #666666;
+}
+
+.fresh__sp {
+    margin-bottom: 0px;
+}
+
+.fresh__smoll {
+    display: flex;
+    gap: 20px;
+    margin-top: 30px;
+    margin-bottom: 60px;
 }
 
 
@@ -463,36 +516,48 @@ h1 {
         padding-top: 60px;
     }
 
-    .list__left{
+    .list__left {
         text-align: start;
         padding-left: 0px;
     }
 
-    .list1{
+    .list1 {
         width: 350px;
         height: 360px;
         left: 0;
     }
 
-    .list__right{
+    .list__right {
         text-align: center;
     }
 
-    .sob__top{
+    .sob__top {
         padding-top: 50px;
     }
 
-    .sob__tex{
+    .sob__tex {}
 
-    }
-
-    .son__smoll{
+    .son__smoll {
         display: flex;
         justify-content: center;
         align-items: center;
     }
 
-    .product_left{
+    .product_left {
         text-align: center;
+    }
+
+    .fresh__left {
+        text-align: center;
+    }
+
+    .fresh__right {
+        text-align: center;
+    }
+
+    .fresh__smoll {
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 }

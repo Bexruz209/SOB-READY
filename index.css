@@ -632,6 +632,7 @@ h1 {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 100px;
 }
 
 .apps__h1 {
@@ -654,7 +655,46 @@ h1 {
     height: 425px;
 }
 
+.futter {
+    background: #F7F7F7;
+}
 
+.futter_p {
+    padding-top: 30px;
+    color: #666666;
+}
+
+.f_h1 {
+    font-size: 20px;
+    color: #333333;
+}
+
+.f_p {
+    font-size: 16px;
+    color: #666666;
+}
+
+.futter__smoll {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.futter_botton {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.f__p {
+    font-weight: 400;
+    font-size: 16px;
+    color: #666666;
+}
 
 
 
@@ -779,10 +819,34 @@ h1 {
 
     .apps__left {
         text-align: center;
+        margin-bottom: 50px;
     }
 
     .apps_img_button {
         width: 300px;
+    }
 
+    .futter__left {
+        text-align: center;
+        margin-bottom: 50px;
+    }
+
+    .futter_left {
+        text-align: center;
+        margin-bottom: 50px;
+    }
+
+    .futter__right {
+        text-align: center;
+        margin-bottom: 50px;
+    }
+
+    .futter_right {
+        text-align: center;
+        margin-bottom: 70px;
+    }
+
+    .f_botton {
+        text-align: center;
     }
 }

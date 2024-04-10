@@ -628,6 +628,32 @@ h1 {
     align-items: center;
 }
 
+.apps {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.apps__h1 {
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 70px;
+    color: #333333;
+}
+
+.apps__p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #666666;
+    margin-bottom: 50px;
+}
+
+.apps__img {
+    width: 532px;
+    height: 425px;
+}
+
 
 
 
@@ -720,7 +746,8 @@ h1 {
     }
 
     .fresh__img {
-        width: 380px;
+        width: 350px;
+        height: 350px;
     }
 
     .fresh__smoll {
@@ -737,5 +764,25 @@ h1 {
 
     .selling_left {
         background: #F7F7F7;
+    }
+
+    .apps__right {
+        text-align: center;
+    }
+
+    .apps__img {
+        width: 350px;
+        height: 350px;
+        margin-top: 30px;
+        text-align: center;
+    }
+
+    .apps__left {
+        text-align: center;
+    }
+
+    .apps_img_button {
+        width: 300px;
+
     }
 }

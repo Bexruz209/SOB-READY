@@ -476,6 +476,7 @@ h1 {
     background: #fff;
     margin-top: 70px;
     margin-left: 40px;
+    padding-bottom: 25px;
 }
 
 .selling__img {
@@ -599,6 +600,13 @@ h1 {
     border: 1px solid #E21A43;
     color: #E21A43;
     background: #fff;
+    transition: .5s;
+}
+
+.bttn:hover{
+    transition: .5s;
+    background: #E21A43;
+    color: #fff;
 }
 
 .selling__top {
